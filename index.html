@@ -37,7 +37,7 @@
       }
     }
   </script>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
   <style>
     .attribution {
       font-size: 11px;
@@ -45,25 +45,26 @@
     }
 
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(228, 100%, 79%);
     }
   </style>
 </head>
 
-<body class="bg-primary-900 text-neutral-100 h-[100dvh] grid place-items-center font-inter">
+<body class="bg-primary-900 text-neutral-100 min-h-[100dvh] grid place-items-center font-inter">
 
   <main class="max-w-[1110px] mx-auto px-6">
     <h1 class="sr-only">
       Stats preview card
     </h1>
 
-    <div class="bg-primary-700 rounded-lg overflow-hidden md:grid md:grid-cols-2 h-[780px] md:h-[445px]">
+    <div class="bg-primary-700 rounded-lg overflow-hidden md:grid md:grid-cols-2 min-h-[780px] md:min-h-[445px]">
       <div class="bg-primary-500 relative">
           <picture class="md:order-last">
-            <source srcset="/images/image-header-desktop.jpg" type="image/jpg" media="(min-width: 768px)" />
-            <img src="/images/image-header-mobile.jpg" alt="" class="md:h-full object-cover mix-blend-multiply">
+            <source srcset="images/image-header-desktop.jpg" type="image/jpg" media="(min-width: 768px)" />
+            <img src="images/image-header-mobile.jpg" alt="" class="w-full md:h-full object-cover mix-blend-multiply">
           </picture>
         <div class="bg-primary-500/25 absolute top-0 left-0 w-full h-full">
+          <span class="sr-only">filter</span>
         </div>
       </div>
 
@@ -94,10 +95,10 @@
 
   </main>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+  <div class="attribution md:absolute -bottom-4">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/viphakorn">James Viphakorn</a>.
+  </div>
 </body>
 
 </html>

@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://viphakorn.github.io/fem-stats-preview-card/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 ## Author
 
 - Website - [James Viphakorn](https://jamey.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@viphakorn](https://www.frontendmentor.io/profile/viphakorn)
 - Twitter - [@jameyplay](https://www.twitter.com/jameyplay)
