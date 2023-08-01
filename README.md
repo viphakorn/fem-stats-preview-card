@@ -35,6 +35,7 @@ Users should be able to:
 ### Built with
 
 - Mobile-first workflow
+- [Vite.js](https://vitejs.dev/) - for build tool
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 
 ### Useful resources
